@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" tye="text/css" href="libraries/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/sketch.js"></script>
+    <script language="javascript" type="text/javascript" src="scripts/particles.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <div id="canvas"></div>
+    <div id="canvasForP5"></div>
+    <div class="headerImg"><img src="references\Web 1920 – 2@2x.png" class="headerImgReal"></div>
+
+
+    <div class="page-tabs">
+        <button id="b1" class="tabButton Chara button--rayen1" onclick="openTab('byChara')"
+            data-text="Character">Character</button>
+        <button id="b2" class="tabButton Recipe button--rayen2" onclick="openTab('byRecipe')"
+            data-text="About this site">About this site</button>
+        <button class="base"></button>
+
+        <div id="byChara" class="tab">
+            <!-- <h2>character</h2> -->
+            <section class="search-box">
+                <div class="startItemBox">
+
+                    <input type="text" class="search-box-active" id="test" placeholder="Enter a character">
+
+                    <button id="check">Check</button>
+
+                </div>
+                <div id="alertImg"></div>
+                <div id="result-box" style="display: none;">
+
+                </div>
+
+            </section>
+        </div>
+
+        <section class="search-box">
+            <!-- <div class="search_back_mobile"></div> -->
+            <div id="byRecipe" class="tab" style="display:none">
+
+
+                <div class="search_back_mobile">
+                    <h2>Match Maker is a visualisation project using data from Archive Of Our Own on Harry Potter fanfiction ship tags.</h2>
+                    <div class="references">
+                        <h3><b>Author<a href="https://alliexiao.squarespace.com/" class="hyperLink">Allie Slat</a></b>
+                        </h3>
+                        <a href="https://github.com/slatalison/WebAdvanced_Fall2019_xiaos157/tree/8d458ceb1d5a011cdc4a547f79c5d7e03655e443/Matchmaker/Zoomable%20network"
+                            class="hyperLink">Git
+                            Hub repository</a>
+                        <hr>
+                        <h3><b>References & credits</b></h3>
+                        <a href="https://github.com/MadRajib/p5_sketch/tree/master/particle_network"
+                            class="hyperLink">Particle network</a>
+                        <br>
+                        <a href="http://bl.ocks.org/eyaler/10586116" class="hyperLink">Network force layout</a>
+                        <h3>Special thanks to Donna my friend, best Python programmer ever!</h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="search_back"></div>
+
+
+        <div class="pseudo_canvas"></div>
+    </div>
+
+
+    <!-- 脚本们 -->
+    <script src="libraries/d3.js"></script>
+
+    <script src="scripts/script_new.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="scripts/tab.js"></script>
+
+
+</body>
+
+</html>

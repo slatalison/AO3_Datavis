@@ -14,7 +14,7 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 8px solid rgb(5, 157, 118);
+    border-bottom: 8px solid rgb(154,0,0);
     background-color: white;
     border-radius: 8px;
   }
@@ -79,7 +79,7 @@
     cursor: pointer;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(5, 157, 118);
+    background-color: rgb(154,0,0);
   }
   
   .search-box {
@@ -109,7 +109,7 @@
     display: block;
     width: 240px;
     height: 40px;
-    border-bottom: 1.5px solid rgb(5, 157, 118);
+    border-bottom: 1.5px solid rgb(154,0,0);
     padding-right: 40px;
     border-radius: 0;
     border-top: none;
@@ -142,7 +142,7 @@
   }
   
   .on {
-    background-color: rgb(5, 157, 118);
+    background-color: rgb(154,0,0);
     color: white;
   }
   
@@ -151,7 +151,7 @@
       background-color: white;
     }
     to {
-      background-color: rgb(5, 157, 118);
+      background-color: rgb(154,0,0);
     }
   }
   
@@ -160,7 +160,7 @@
       background-color: white;
     }
     to {
-      background-color: rgb(5, 157, 118);
+      background-color: rgb(154,0,0);
     }
   }
   
@@ -217,7 +217,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(5, 157, 118);
+    background: rgb(154,0,0);
     transform: translate3d(-100%, 0, 0);
   }
   
@@ -247,7 +247,7 @@
     height: 28px;
     width: 54px;
     border-radius: 8px;
-    color: rgb(5, 157, 118);
+    color: rgb(154,0,0);
     background-color: none;
     border: none;
     margin-top: 8px;
